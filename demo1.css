@@ -1,0 +1,59 @@
+.main-container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.site-menu,
+.sidebar {
+    width: 20%;
+}
+
+.site-menu {
+    background-color: blueviolet;
+}
+
+.site-nav {
+    background-color: aqua;
+    list-style: none;
+    padding: 0;
+    border: 3px solid black;
+}
+
+.site-nav-item {
+    border-bottom: 3px solid black;
+    padding: 10px;    
+}
+
+.site-nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.site-nav-item:last-child {
+    border-bottom: none;
+}
+
+.sidebar {
+    background-color: blueviolet;
+}
+
+.main-content {
+    width: 60%;
+    background-color: brown;
+}
+
+.site-menu,
+.main-content,
+.sidebar {
+    float: left;
+}
+
+figure {
+    width: 600px;
+    border: 4px solid black;
+    padding: 5px;
+}
+
+figure img {
+    width: 100%;
+}
