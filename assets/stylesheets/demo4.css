@@ -171,13 +171,21 @@ cite, em {
 
 .btn {
 	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
 	display: inline-block;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: uppercase;
 	margin: 0;
 }
 .btn-alt {
-	border: 1px solid #dfe2e5;
+	border: 1px solid #fff;
 	padding: 10px 30px;
-
+}
+.btn-alt:hover {
+	background: #fff;
+	color: #648880;
 }
 
 /*
@@ -220,6 +228,18 @@ cite, em {
 .group {
 	clear: both;
 	*zoom: 1; 
+}
+
+/*
+  ========================================
+  Полосы
+  ========================================
+*/
+
+.row {
+	color: #fff;
+	min-width: 960px;
+	padding: 66px 0 44px 0;
 }
 
 /*
